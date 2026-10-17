@@ -1,0 +1,19 @@
+name: gisa_rides
+description: Gisa Rides ride-hailing MVP for Kigali, Rwanda.
+publish_to: 'none'
+version: 0.1.0+1
+environment:
+  sdk: '>=3.13.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  supabase_flutter: ^2.18.0
+  google_maps_flutter: ^2.18.2
+  geolocator: ^14.1.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true

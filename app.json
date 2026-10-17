@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Gisa Rides",
+    "slug": "gisa-rides",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": { "resizeMode": "contain", "backgroundColor": "#0BAA45" },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "rw.gisarides.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Gisa Rides uses your location to find your pickup point and show your driver."
+      }
+    },
+    "android": {
+      "package": "rw.gisarides.app",
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"],
+      "config": { "googleMaps": { "apiKey": "YOUR_ANDROID_GOOGLE_MAPS_API_KEY" } }
+    },
+    "plugins": ["expo-location"]
+  }
+}

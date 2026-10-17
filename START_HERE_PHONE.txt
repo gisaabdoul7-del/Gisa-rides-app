@@ -1,0 +1,11 @@
+GISA RIDES — START HERE (ANDROID PHONE)
+
+1. Read PHONE_BUILD_GUIDE.md.
+2. Upload the contents of this folder to a PRIVATE GitHub repository. Include the hidden .github/workflows/build-android.yml file.
+3. Add GitHub Actions secrets: SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY, ANDROID_MAPS_API_KEY.
+4. Open Actions → Build Gisa Rides Android APK → Run workflow.
+5. Download the gisa-rides-android-apk artifact after the workflow succeeds. Extract it and install app-release.apk.
+
+Your Supabase database already has profiles and rides plus the three ride functions, according to the setup steps you completed. Never put a Supabase service-role/secret key in the mobile app.
+
+This is an MVP, not yet production-ready. Road routing, ETA, live background driver tracking, push notifications, payments, cancellation, admin dashboard, final security review and store publishing are still outstanding. iOS requires a separate Apple-signed build.
